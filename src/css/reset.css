@@ -1,0 +1,10 @@
+/*Resetando as configurações do google*/
+*{
+    margin: 0;/*espaçamento externo entre elementos*/
+    padding: 0;/*espaçamento interno dentro do elemento*/
+    box-sizing: border-box;/*ajudar a trabalhar com a largura do elemento*/
+}
+
+ul {
+    list-style: none;
+}

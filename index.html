@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Naruto Slider</title>
+
+    <link rel="shortcut icon" href="src/imagens/logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/logo.png" alt="naruto-shippuden" class="naruto-shippuden">
+        <h1 class="titulo">Cards Naruto Shippuden</h1>
+    </header>
+
+    <main class="naruto-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Naruto</h2>
+                    <p class="vida">HP 680</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/naruto.png" alt="Naruto" class="imagem-naruto">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Naruto Uzumaki é apresentado como um jovem rapaz louro, cabelos arrepiados e olhos azuis. Ele frequentemente veste uma jaqueta laranja. Após a sua graduação ninja ele começa a usar um protetor de testa que denota a sua posição como um ninja da Vila Oculta da Folha.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Sasuke</h2>
+                    <p class="vida">HP 675</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/sasuke.png" alt="Sasuke" class="imagem-naruto">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Sasuke é membro do clã Uchiha, que era uma habilidosa família de ninjas da Vila Oculta da Folha. Seu objetivo inicial é vingar a destruição de seu clã, matando seu irmão Itachi Uchiha, que assassinou quase todos sozinho. Inicialmente o personagem e descrito como frio, cruel, introvertido e guiado por sua vingança.</p>
+                </div>
+            </li>
+            <li class="cartao  fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Sakura</h2>
+                    <p class="vida">HP 700</p>
+                </div>
+
+                <div>
+                    <img src="src/imagens/sakura.png" alt="Sakura" class="imagem-naruto">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> Sakura inicialmente tem uma paixão por Sasuke, elogiando-o em cada situação, e acumulando desprezo sobre o menos qualificado Naruto. Ao longo da série, ela começa a criar uma personalidade compassiva e generosa, crescendo mais sensível e emotiva, aceitando e apoiando Naruto.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
